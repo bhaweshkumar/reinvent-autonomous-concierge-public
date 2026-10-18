@@ -1,0 +1,44 @@
+' Date: 2026-10-07
+' Shows live-mode processes, local stores, external APIs, and the attendee-machine boundary.
+@startuml C4_Container
+!include ../plantuml-icons/common.puml
+!include <C4/C4_Container>
+
+title re:Invent Autonomous Concierge — Containers, live mode (2026-10-07)
+LAYOUT_WITH_LEGEND()
+
+Person(attendee, "Attendee", "Registered for re:Invent 2026")
+System_Ext(mcp_host, "MCP client host", "Claude Desktop / Claude Code / Kiro, with its LLM")
+
+System_Boundary(machine, "Attendee's machine (trust boundary: the attendee's OS account)") {
+    Container(cli, "concierge CLI", "Python, click", "login / logout / doctor / sync / serve / ui / snapper / run")
+    Container(auth, "Builder ID sign-in", "Python, auth.py", "PKCE + state; one-shot callback server on 127.0.0.1:8484-8489/callback")
+    Container(mcp_server, "Concierge MCP server", "Python, FastMCP", "23 tools; stdio for MCP clients, or SSE on 127.0.0.1:8000 for the UI (Host/Origin checked)")
+    Container(ui, "Web UI", "Streamlit", "Chat search, agenda with transit blocks, waitlist control. 127.0.0.1:8501")
+    Container(runtime, "Background runtime", "Python asyncio", "Seat snapper and periodic catalog sync under one runtime lease")
+    Container(core, "Concierge core", "Python library", "Hybrid search, transit engine (NetworkX venue registry), itinerary planner, approval-gated booking write path")
+    Container(rest_client, "AWS Events REST client", "httpx", "Rate limiter + per-operation quota governor; 401 → refresh once → retry once; redirects not followed")
+    ContainerDb(cred_store, "Credential store", "JSON file, mode 0600", "~/.aws-events/credentials: access + refresh token")
+    ContainerDb(catalog_db, "Catalog database", "SQLite + fastembed (ONNX)", "session_catalog.db: sessions and session_vectors (all-MiniLM-L6-v2)")
+    ContainerDb(planner_db, "Planner database", "SQLite, mode 0600", "planner_state.db: preferences, plans, apply journal, approvals, waitlist, audit (token hash only)")
+}
+
+System_Ext(builder_id, "AWS Builder ID sign-in", "oauth.awsevents.com")
+System_Ext(events_rest, "AWS Events REST API", "api.awsevents.com/v1")
+
+Rel(attendee, cli, "Runs commands")
+Rel(attendee, ui, "Uses", "Browser → 127.0.0.1:8501")
+Rel(mcp_host, mcp_server, "Calls tools", "MCP over stdio")
+Rel(ui, mcp_server, "Calls tools", "MCP over SSE, loopback")
+Rel(cli, auth, "concierge login / logout")
+Rel(auth, builder_id, "Authorize, token exchange, revoke", "HTTPS")
+Rel(auth, cred_store, "Writes / deletes tokens")
+Rel(mcp_server, core, "Invokes")
+Rel(runtime, core, "Invokes")
+Rel(core, catalog_db, "Search and sync", "SQL + numpy cosine")
+Rel(core, planner_db, "Plans, journal, waitlist, audit", "SQL")
+Rel(core, rest_client, "Catalog and schedule operations")
+Rel(rest_client, cred_store, "Reads token; stores refreshed tokens")
+Rel(rest_client, events_rest, "Bearer token", "HTTPS")
+Rel(rest_client, builder_id, "refresh_token grant", "HTTPS")
+@enduml

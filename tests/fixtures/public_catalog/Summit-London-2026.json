@@ -1,0 +1,730 @@
+{
+ "eventId": "Summit-London-2026",
+ "items": [
+  {
+   "abbreviation": "AIM103",
+   "features": [
+    "Lecture-style"
+   ],
+   "isAllDaySession": false,
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Developer / Engineer"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, Albert 3",
+   "sessionId": "AIM103",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "40",
+    "time": "15:20",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Ashwani Kumar, Sr Partner Sales Mgr"
+    },
+    {
+     "name": "Inthuson Anandakumar, Senior Solutions Architect"
+    },
+    {
+     "name": "Ryan Yanchuleff, Senior Specialist SA"
+    }
+   ],
+   "title": "Kiro: Your agentic IDE for spec-driven development",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM203",
+   "areasOfInterest": [
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style"
+   ],
+   "industries": [
+    "Financial Services",
+    "Retail & Consumer Goods",
+    "Healthcare & Life Sciences"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Business Executive",
+    "IT Professional / Technical Manager",
+    "Solution / Systems Architect"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, Victoria 2",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon SageMaker AI"
+   ],
+   "sessionId": "AIM203",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "15:35",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Mariusz Mikcinski, GenAI Architect"
+    },
+    {
+     "name": "Michal Penarski, Senior Engagement Manager"
+    }
+   ],
+   "title": "Best practices to identify, prioritize & scale generative AI use cases",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM204",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Automation"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Business Executive",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, Victoria 1",
+   "services": [
+    "Amazon Quick"
+   ],
+   "sessionId": "AIM204",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "12:10",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Stephen Keane, Head of Business Transformation, Ryanair"
+    },
+    {
+     "name": "Alara Baransel, Solutions Architect II"
+    },
+    {
+     "name": "Daniel Harrison, Senior AGS AI/ML Sales Specialist"
+    }
+   ],
+   "title": "Reimagine work with Amazon Quick",
+   "topics": [
+    "Artificial Intelligence",
+    "Business Applications",
+    "Analytics"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM205",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Developer / Engineer",
+    "IT Professional / Technical Manager",
+    "IT Executive"
+   ],
+   "room": "Excel London, Boulevard, Level 0, Auditorium A",
+   "services": [
+    "Amazon Bedrock"
+   ],
+   "sessionId": "AIM205",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "14:05",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Zaama Mubashra, AI/ML SSA"
+    },
+    {
+     "name": "Amir Omicevic, Solutions Architect"
+    }
+   ],
+   "title": "Bridging from POC to production: An intro to Amazon Bedrock AgentCore",
+   "topics": [
+    "Artificial Intelligence",
+    "Business Applications"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM206",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Governance, Risk & Compliance"
+   ],
+   "features": [
+    "Lecture-style"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Developer / Engineer",
+    "IT Professional / Technical Manager",
+    "Solution / Systems Architect"
+   ],
+   "room": "Excel London, Boulevard, Level 0, Auditorium D",
+   "services": [
+    "Amazon Bedrock",
+    "Kiro",
+    "Amazon Quick"
+   ],
+   "sessionId": "AIM206",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "13:00",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Paul Armstrong, Lead Architect UKI"
+    },
+    {
+     "name": "Mehran Nikoo, Principal AI GTM Lead"
+    }
+   ],
+   "title": "From demo to deployment: solving agentic AI's toughest challenges",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM207",
+   "areasOfInterest": [
+    "Global Infrastructure",
+    "Quantum Technologies"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "industries": [
+    "Manufacturing & Industrial"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Academic / Researcher",
+    "Entrepreneur (Founder/Co-Founder)"
+   ],
+   "room": "Excel London, Level 3, Capital Suites 14",
+   "services": [
+    "Amazon SageMaker AI"
+   ],
+   "sessionId": "AIM207",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "16:40",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Arthur Hussey, Member of Technical Staff, Orbital"
+    },
+    {
+     "name": "Giuseppe Angelo Porcelli, Principal, ML Specialist SA"
+    },
+    {
+     "name": "Jamila Jamilova, WW GenAI Spealist GTM"
+    }
+   ],
+   "title": "Master AI model development with Amazon SageMaker AI",
+   "topics": [
+    "Artificial Intelligence",
+    "Industry Solutions"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM208",
+   "areasOfInterest": [
+    "Agentic AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "isAllDaySession": false,
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Business Executive",
+    "Solution / Systems Architect",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, Victoria 1",
+   "services": [
+    "Amazon Quick"
+   ],
+   "sessionId": "AIM208",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "14:30",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Ali\u00e9nor Carr\u00e9-David, CEO, Propulse"
+    },
+    {
+     "name": "Priyanka Bettaswamygowda, Solutions Architect"
+    },
+    {
+     "name": "Jonathan Preston, Senior WW GTM Specialist, Quick Suite"
+    }
+   ],
+   "title": "Automate any business process using Amazon Quick",
+   "topics": [
+    "Business Applications",
+    "Application Integration"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM302",
+   "areasOfInterest": [
+    "Agentic AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Solution / Systems Architect",
+    "Developer / Engineer",
+    "Business Executive"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, Victoria 1",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon Simple Storage Service (Amazon S3)",
+    "Amazon DynamoDB"
+   ],
+   "sessionId": "AIM302",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "13:25",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Laura Skylaki, VP AI Engineering & AI Platform, Thomson Reuters"
+    },
+    {
+     "name": "Vu San Ha Huynh, Solutions Architect"
+    }
+   ],
+   "title": "Agents in the enterprise: Best practices with Amazon Bedrock AgentCore",
+   "topics": [
+    "Artificial Intelligence",
+    "Architecture",
+    "Industry Solutions"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM303",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "industries": [
+    "Software & Internet"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Developer / Engineer"
+   ],
+   "room": "Excel London, Level 3, Capital Suites 15",
+   "services": [
+    "Amazon Bedrock"
+   ],
+   "sessionId": "AIM303",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "16:40",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "John Sexton, Senior Machine Learning Engineer, Genesys"
+    },
+    {
+     "name": "Aaron Tummon, Senior Software Engineer, Genesys"
+    },
+    {
+     "name": "Stephen Gallagher, Senior Solutions Architect"
+    }
+   ],
+   "title": "Build production AI agents with Strands SDK for Python and TypeScript",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM304",
+   "areasOfInterest": [
+    "Machine Learning",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Data Scientist",
+    "Developer / Engineer",
+    "Academic / Researcher"
+   ],
+   "room": "Excel London, Level 3, Capital Suites 14",
+   "services": [
+    "Amazon SageMaker AI"
+   ],
+   "sessionId": "AIM304",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "13:25",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Benoit de Patoul, Sr. AI/ML Specialist Solutions Architect"
+    },
+    {
+     "name": "Babs Khalidson, Deep Learning Architect"
+    }
+   ],
+   "title": "Customize AI models & accelerate time to production with SageMaker AI",
+   "topics": [
+    "Artificial Intelligence",
+    "Compute"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM305",
+   "areasOfInterest": [
+    "Agentic AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "industries": [
+    "Financial Services",
+    "Media & Entertainment",
+    "Advertising & Marketing"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Data Scientist",
+    "Solution / Systems Architect",
+    "Developer / Engineer"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, George V 1",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon SageMaker AI"
+   ],
+   "sessionId": "AIM305",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "15:35",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Iain Haughton, Senior Staff ML Researcher, Ocado"
+    },
+    {
+     "name": "ARI The Robot, AWS"
+    },
+    {
+     "name": "Ahmed Raafat, Sr Mgr, AI/ML Specialist SA\u2013 AWS- UK&I"
+    },
+    {
+     "name": "Imran Dawood, Principal Solutions Architect"
+    }
+   ],
+   "title": "80% Faster Product Onboarding with Amazon Nova & Fine-Tuning",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM306",
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Developer / Engineer",
+    "Solution / Systems Architect",
+    "Data Scientist"
+   ],
+   "room": "Excel London, Level 3, Capital Suites 14",
+   "sessionId": "AIM306",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "15:35",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Navdeep Sharma, Director of System and Product Architecture, Creditsafe"
+    },
+    {
+     "name": "Diana Alvarado, Senior SSA, Agentic Arch"
+    },
+    {
+     "name": "Mehdi Belgasmi, Sr. Technical Account Manager"
+    }
+   ],
+   "title": "Mastering model choice: The 3-step Amazon Bedrock advantage",
+   "topics": [
+    "Artificial Intelligence",
+    "Architecture"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM307",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Serverless"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Developer / Engineer",
+    "Solution / Systems Architect",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Excel London, Boulevard, Level 0, Auditorium A",
+   "services": [
+    "Amazon Bedrock"
+   ],
+   "sessionId": "AIM307",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "15:10",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Calogero (Lee) Lauricella, ML Engineering Manager, Trainline"
+    },
+    {
+     "name": "Mohammed Reda, Senior Solutions Architect"
+    },
+    {
+     "name": "Jack Bark, Senior Solutions Architect"
+    },
+    {
+     "name": "Anastasia Tzeveleka, Principal GenAI/ML Specialist SA"
+    }
+   ],
+   "title": "Scale agent tools with Amazon Bedrock AgentCore Gateway",
+   "topics": [
+    "Artificial Intelligence",
+    "Business Applications"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM308",
+   "areasOfInterest": [
+    "Generative AI",
+    "Machine Learning"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "industries": [
+    "Financial Services",
+    "Healthcare & Life Sciences",
+    "Advertising & Marketing"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "Developer / Engineer",
+    "Business Executive",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Excel London, Maritime Suites, Level 3, George V 1",
+   "sessionId": "AIM308",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "13:25",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Annabell Schafer, Growth and Developer Relations, Langfuse"
+    },
+    {
+     "name": "Rahul Kulkarni, Sr. GenAI/ML Specialist SA"
+    },
+    {
+     "name": "Aris Tsakpinis, Senior WW Specialist Solutions Architect, GenAI"
+    }
+   ],
+   "title": "Integrate any agent framework with Amazon Bedrock AgentCore",
+   "topics": [
+    "Artificial Intelligence",
+    "Business Applications"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM309",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Governance, Risk & Compliance"
+   ],
+   "features": [
+    "Lecture-style",
+    "Customer story"
+   ],
+   "industries": [
+    "Financial Services",
+    "Automotive",
+    "Healthcare & Life Sciences"
+   ],
+   "isAllDaySession": false,
+   "level": "300 \u2013 Advanced",
+   "roles": [
+    "IT Professional / Technical Manager",
+    "IT Executive",
+    "Data Scientist"
+   ],
+   "room": "Excel London, Level 3, Capital Suites 15",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon Quick"
+   ],
+   "sessionId": "AIM309",
+   "sessionTime": {
+    "date": "2026-04-22",
+    "length": "45",
+    "time": "15:35",
+    "timezone": "Europe/London"
+   },
+   "speakers": [
+    {
+     "name": "Paul Dongha, Head of Responsible AI, Natwest"
+    },
+    {
+     "name": "Silvia Prieto, Principal GenAI Specialist"
+    }
+   ],
+   "title": "From principles to practice: Scaling AI responsibly",
+   "topics": [
+    "Artificial Intelligence",
+    "Architecture"
+   ],
+   "tracks": [
+    "AI/ML"
+   ],
+   "type": "Breakout session"
+  }
+ ]
+}

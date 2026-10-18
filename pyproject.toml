@@ -1,0 +1,113 @@
+[project]
+name = "reinvent-autonomous-concierge"
+version = "1.0.0"
+description = "AI agent for AWS re:Invent session management with smart scheduling and auto-seat-snagging"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Re:Invent Hackathon Team", email = "team@example.com"},
+]
+keywords = ["aws", "reinvent", "mcp", "ai-agent", "fastmcp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+dependencies = [
+    "httpx>=0.27.0,<1.0.0",
+    "truststore>=0.10.0,<1.0.0",
+    "aiosqlite>=0.20.0,<1.0.0",
+    "pydantic>=2.7.0,<3.0.0",
+    "pydantic-settings>=2.3.0,<3.0.0",
+    "numpy>=1.26.0",
+    "networkx>=3.0,<4.0",
+    "click>=8.1.0,<9.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+    "fastmcp>=2.10.0,<5.0.0",
+]
+
+[project.optional-dependencies]
+# SPEC-20: fastembed (ONNX) is the default semantic-search backend; sentence-transformers/
+# PyTorch is kept one release behind `semantic-torch` for anyone pinned to the old stack.
+# FAISS is removed outright (vectors live in SQLite; see ingestion/vector_index.py).
+semantic = [
+    "fastembed>=0.8.0,<1.0.0",
+]
+semantic-torch = [
+    "sentence-transformers>=3.0.0,<7.0.0",
+]
+ui = [
+    "streamlit>=1.37.0,<2.0.0",
+    "pandas>=2.2.0",
+    "plotly>=5.18.0",
+]
+desktop = [
+    "plyer>=2.1.0,<3.0.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "respx>=0.20.0",
+    "ruff>=0.6.0",
+    "mypy>=1.9.0",
+]
+
+[project.scripts]
+concierge = "reinvent_concierge.cli:cli"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+reinvent_concierge = ["py.typed", "data/*.json"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+# Design docs are inputs; don't reformat their code samples.
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S"]
+ignore = [
+    "UP006", "UP007", "UP035", "UP045",  # keep typing.List/Optional style used throughout
+    "B008",                              # Field()/Annotated defaults are idiomatic pydantic
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106", "B011"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["reinvent_concierge", "tests"]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+ignore_missing_imports = true
+files = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--tb=short -m 'not live'"
+asyncio_mode = "auto"
+markers = [
+    "live: calls the real AWS Events API / MCP server (run with `make test-live`)",
+]
+
+[tool.coverage.run]
+source = ["reinvent_concierge"]
+omit = ["*/ui/app.py"]

@@ -1,0 +1,29 @@
+' Date: 2026-10-07
+' Shows the attendee, local concierge, MCP client, Builder ID, and AWS Events services.
+@startuml C4_Context
+!include ../plantuml-icons/common.puml
+!include <C4/C4_Context>
+
+title re:Invent Autonomous Concierge — System Context (2026-10-07)
+LAYOUT_WITH_LEGEND()
+
+Person(attendee, "re:Invent Attendee", "Holds an AWS Builder ID and is registered for re:Invent 2026.")
+
+Enterprise_Boundary(machine, "Attendee's machine") {
+    System(mcp_host, "MCP client host", "Claude Desktop, Claude Code or Kiro. Brings its own LLM and chooses which tools to call.")
+    System(concierge, "re:Invent Autonomous Concierge", "Local catalog search, venue-transit planning, approval-gated booking, seat snapper. CLI, MCP server and web UI.")
+}
+
+System_Ext(builder_id, "AWS Builder ID sign-in", "oauth.awsevents.com and idp.awsevents.com: OAuth 2.0 authorization code + PKCE.")
+System_Ext(events_rest, "AWS Events REST API", "api.awsevents.com/v1: catalog, schedule, reservations, favorites, personal time.")
+System_Ext(events_mcp, "AWS Events hosted MCP server", "api.awsevents.com/mcp: the same operations as MCP tools; sign-in required for every call.")
+
+Rel(attendee, mcp_host, "Asks in plain English")
+Rel(attendee, concierge, "CLI and web UI", "127.0.0.1")
+Rel(mcp_host, concierge, "Calls 23 concierge tools", "MCP over stdio")
+Rel(mcp_host, events_mcp, "Optional: calls AWS Events tools directly", "MCP over HTTPS")
+Rel(attendee, builder_id, "Signs in through the browser", "HTTPS")
+Rel(concierge, builder_id, "Exchanges code, refreshes and revokes tokens", "HTTPS, PKCE")
+Rel(concierge, events_rest, "Reads the catalog; reads and writes the attendee's schedule", "HTTPS, Bearer token")
+Rel(concierge, events_mcp, "Health check only (concierge doctor --mcp)", "MCP over HTTPS")
+@enduml

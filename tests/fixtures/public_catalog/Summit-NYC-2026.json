@@ -1,0 +1,630 @@
+{
+ "eventId": "Summit-NYC-2026",
+ "items": [
+  {
+   "abbreviation": "AIM101-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Governance, Risk & Compliance",
+    "Data Protection"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "room": "Expo, Theater 1",
+   "services": [
+    "Amazon SageMaker",
+    "Amazon SageMaker AI",
+    "Amazon Bedrock"
+   ],
+   "sessionId": "AIM101-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "14:30",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Vinitha Varadarajan, Head of Global CXO Value Strategy, Cyera"
+    }
+   ],
+   "title": "Cyera and AWS: Enable AI at scale, with data secured everywhere (brought to you by Cyera)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM102-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Digital Sovereignty",
+    "Data Protection"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "room": "Expo, AWS for Industries Zone",
+   "services": [
+    "Amazon Bedrock",
+    "AWS Control Tower"
+   ],
+   "sessionId": "AIM102-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "13:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Dr. Justin Cook, Global CTO, AWS Alliance, Atos"
+    },
+    {
+     "name": "Ajay Kanani, Head of Strategic Growth and Engagement, Atos"
+    },
+    {
+     "name": "Javier Ponce Suarez, Head of Cloud - North America, Atos"
+    }
+   ],
+   "title": "Agentic AI at Enterprise Scale: Production-Ready, Governed, Secure (brought to you by Atos)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM103-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Monitoring & Observability",
+    "DevOps"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Media & Entertainment",
+    "Retail & Consumer Goods",
+    "Financial Services"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "Developer / Engineer",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Expo, Theater 1",
+   "sessionId": "AIM103-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "13:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Chris Ramsay, DevEx & Platform Engineering Lead, VistaPrint"
+    },
+    {
+     "name": "Jemiah Sius, VP, Market Strategy and Developer Relations, New Relic"
+    }
+   ],
+   "title": "Redefining the SDLC: Integrating Autonomous AI and Observability (brought to you by New Relic)",
+   "topics": [
+    "Artificial Intelligence",
+    "Industry Solutions"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM104-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "DevOps",
+    "Monitoring & Observability"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Media & Entertainment",
+    "Retail & Consumer Goods"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "Developer / Engineer",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Room 1E08",
+   "sessionId": "AIM104-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "14:15",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Bill Fine, Product Leader, Agentic AI, AWS"
+    },
+    {
+     "name": "Anush Jayaraman, Director, Partner Engineering, New Relic"
+    },
+    {
+     "name": "Muthuvelan Swaminathan, Principal Partner Architect, New Relic"
+    }
+   ],
+   "title": "Autonomous AI Ops with AWS DevOps Agent and New Relic (brought to you by New Relic)",
+   "topics": [
+    "Artificial Intelligence",
+    "Industry Solutions"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM105-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Responsible AI",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "room": "Hall 3E - Purple Silent Stage",
+   "sessionId": "AIM105-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "15:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Jamal Arif, Member of Technical Staff, Anthropic"
+    }
+   ],
+   "title": "More Ways to Build with Claude on AWS (brought to you by Anthropic)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM106-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Cost Optimization",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "room": "Expo, Theater 2",
+   "sessionId": "AIM106-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "08:30",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Jake Vernon, Senior Manager, Solutions Architecture , Clickhouse"
+    }
+   ],
+   "title": "The Agentic Data Stack: The Future is Conversational (brought to you by ClickHouse)",
+   "topics": [
+    "Artificial Intelligence",
+    "Analytics"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM201-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "DevSecOps",
+    "Machine Learning"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Healthcare & Life Sciences",
+    "Manufacturing & Industrial"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Cloud Security Specialist",
+    "DevOps Engineer",
+    "IT Executive"
+   ],
+   "room": "Expo, AWS Partner Spotlight Lounge",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon GuardDuty",
+    "Amazon SageMaker"
+   ],
+   "sessionId": "AIM201-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "15",
+    "time": "14:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Keith O'Brien, Distinguished Security Architect, Cisco"
+    }
+   ],
+   "title": "AI Application and Agentic Security (brought to you by Cisco)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM202-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Culture of Security",
+    "Network & Infrastructure Security"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Software & Internet",
+    "Manufacturing & Industrial"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "IT Executive",
+    "Solution / Systems Architect",
+    "Business Executive"
+   ],
+   "room": "Expo, AWS Partner Spotlight Lounge",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon SageMaker",
+    "AWS Lambda"
+   ],
+   "sessionId": "AIM202-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "15",
+    "time": "13:30",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Kyle Keough, Director, AI, AllCloud"
+    }
+   ],
+   "title": "Executing Agentic AI Securely: From Strategy to Scalable Value (brought to you by AllCloud)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM203-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Business Intelligence",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Manufacturing & Industrial",
+    "Healthcare & Life Sciences"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "IT Professional / Technical Manager",
+    "IT Executive",
+    "Solution / Systems Architect"
+   ],
+   "room": "Expo, Theater 2",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon SageMaker",
+    "Amazon Simple Storage Service (Amazon S3)"
+   ],
+   "sessionId": "AIM203-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "16:45",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "David Wilmer, Partner Solutions Architect, Qlik"
+    },
+    {
+     "name": "Sean Williams, Senior Manager, Partner Solution Architects, Qlik"
+    }
+   ],
+   "title": "Using AWS Transform and Qlik for agentic Mainframe modernization (brought to you by Qlik)",
+   "topics": [
+    "Artificial Intelligence",
+    "Analytics"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM204-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "DevSecOps",
+    "Resilience"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Government",
+    "Automotive"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Developer / Engineer",
+    "DevOps Engineer",
+    "System Administrator"
+   ],
+   "room": "Room 1E10",
+   "services": [
+    "Amazon Elastic Kubernetes Service (Amazon EKS)"
+   ],
+   "sessionId": "AIM204-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "10:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Olivia Liddell, Solutions Architect, GitLab"
+    }
+   ],
+   "title": "CI/CD Meets Agentic AI: Auto-Healing Pipelines with GitLab DAP on AWS  (brought to you by GitLab)",
+   "topics": [
+    "Artificial Intelligence",
+    "Developer Tools"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM205-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "DevSecOps",
+    "Resilience"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Automotive",
+    "Government",
+    "Financial Services"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Developer / Engineer",
+    "DevOps Engineer",
+    "IT Administrator"
+   ],
+   "room": "Expo, Theater 1",
+   "services": [
+    "Amazon Bedrock"
+   ],
+   "sessionId": "AIM205-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "13:45",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Saurav Issar,  Senior Solutions Architect,  GitLab"
+    }
+   ],
+   "title": "Accelerating Innovation with GitLab DAP powered by AWS Bedrock (brought to you by GitLab)",
+   "topics": [
+    "Artificial Intelligence",
+    "Developer Tools"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM206-S",
+   "areasOfInterest": [
+    "DevOps"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Financial Services",
+    "Healthcare & Life Sciences",
+    "Advertising & Marketing"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "Data Engineer",
+    "Developer / Engineer",
+    "Data Scientist"
+   ],
+   "room": "Expo, Theater 2",
+   "services": [
+    "Amazon ElastiCache",
+    "Amazon ElastiCache Serverless",
+    "Amazon MemoryDB"
+   ],
+   "sessionId": "AIM206-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "15:15",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Talon Mller, Principal Architect, AI GTM, Redis"
+    }
+   ],
+   "title": "AI in production: Context, coordination, and scale with Redis (brought to you by Redis)",
+   "topics": [
+    "Artificial Intelligence",
+    "Databases"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM207-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Responsible AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "room": "Expo, Theater 2",
+   "sessionId": "AIM207-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "13:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Barry Gerdsen, CTO - Channels & Alliances, Boomi"
+    }
+   ],
+   "title": "Design, Deploy, and Govern AI Agents with Boomi Agentstudio (brought to you by Boomi)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM208-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Responsible AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "room": "Hall 3E - Red Silent Stage",
+   "sessionId": "AIM208-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "15:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Mani Gill, SVP, Product Management, Boomi"
+    },
+    {
+     "name": "Patricia Moore, AI Innovation Lead, Boomi"
+    }
+   ],
+   "title": "Peaks, Pitfalls, and Proof: Real-World Lessons in Agentic AI (brought to you by Boomi)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM209-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Monitoring & Observability",
+    "Business Intelligence"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Software & Internet",
+    "Financial Services",
+    "Retail & Consumer Goods"
+   ],
+   "level": "200 \u2013 Intermediate",
+   "roles": [
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Room 1E13",
+   "services": [
+    "AWS DevOps Agent"
+   ],
+   "sessionId": "AIM209-S",
+   "sessionTime": {
+    "date": "2026-06-17",
+    "length": "30",
+    "time": "14:00",
+    "timezone": "America/New_York"
+   },
+   "speakers": [
+    {
+     "name": "Jason Eckhart, Principal Engineer, United"
+    },
+    {
+     "name": "Jason Ostroski, CTO, Dynatrace"
+    }
+   ],
+   "title": "Elevating United Airlines Reliability with Agentic AI and AWS (brought to you by Dynatrace)",
+   "topics": [
+    "Artificial Intelligence",
+    "Cloud Operations"
+   ],
+   "type": "Breakout session"
+  }
+ ]
+}

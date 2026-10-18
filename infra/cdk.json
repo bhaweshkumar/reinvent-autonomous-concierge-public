@@ -1,0 +1,10 @@
+{
+  "app": ".venv/bin/python3 app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": [".venv/**", "cdk.out/**", "demo-snapshot/**"]
+  },
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": true
+  }
+}

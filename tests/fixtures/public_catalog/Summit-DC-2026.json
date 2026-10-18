@@ -1,0 +1,611 @@
+{
+ "eventId": "Summit-DC-2026",
+ "items": [
+  {
+   "abbreviation": "AIM101-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Governance, Risk & Compliance",
+    "Innovation & Transformation"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "State and Local Government",
+    "Government"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "IT Executive",
+    "Solution / Systems Architect"
+   ],
+   "room": "151AB",
+   "sessionId": "AIM101-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "30",
+    "time": "09:45"
+   },
+   "speakers": [
+    {
+     "name": "Steven Maclauchlan, Chief Data Officer, Virginia State Police"
+    },
+    {
+     "name": "Paulose Poovathukaran, Chief Data Officer, Virginia Department of Behavioral Health and Developmental Services"
+    },
+    {
+     "name": "Jennifer Chronis, VP, US Public Sector Sales, Snowflake"
+    }
+   ],
+   "title": "Delivering Mission AI at Scale: Enterprise Lessons and Public Sector Realities (brought to you by Snowflake)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM102-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Automation",
+    "Business Intelligence"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Government",
+    "State and Local Government",
+    "Federal Government"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "IT Executive",
+    "IT Professional / Technical Manager",
+    "IT Administrator"
+   ],
+   "room": "Expo, Theater 1",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon Quick"
+   ],
+   "sessionId": "AIM102-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "09:15"
+   },
+   "speakers": [
+    {
+     "name": "Andrew Churchill, VP of Public Sector, Qlik"
+    }
+   ],
+   "title": "Agentic AI with Qlik and AWS: From Insight to Autonomous Action (brought to you by Qlik)",
+   "topics": [
+    "Artificial Intelligence",
+    "Migration & Modernization"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM103-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Governance, Risk & Compliance",
+    "Innovation & Transformation"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "Government",
+    "Healthcare & Life Sciences"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "IT Executive",
+    "IT Professional / Technical Manager",
+    "Business Executive"
+   ],
+   "room": "Expo, Theater 1",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon Quick Suite"
+   ],
+   "sessionId": "AIM103-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "15",
+    "time": "09:45"
+   },
+   "speakers": [
+    {
+     "name": "Kelly Cauley, Head of PubSec, Asana"
+    }
+   ],
+   "title": "Delivering Critical Work with Collaborative Workflows and Governed AI (brought to you by Asana)",
+   "topics": [
+    "Artificial Intelligence",
+    "Industry Solutions"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM104-S",
+   "areasOfInterest": [
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Data Engineer",
+    "IT Administrator",
+    "IT Executive"
+   ],
+   "room": "Expo, Theater 2",
+   "sessionId": "AIM104-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "14:45"
+   },
+   "speakers": [
+    {
+     "name": "Patricia Titus, Field CISO, Abnormal AI"
+    }
+   ],
+   "title": "Is AI Going to Take My Cybersecurity Job? (brought to you by Abnormal AI)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM105-S",
+   "areasOfInterest": [
+    "Data Protection"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "IT Administrator",
+    "IT Executive",
+    "Business Executive"
+   ],
+   "room": "Expo, Theater 2",
+   "sessionId": "AIM105-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "13:15"
+   },
+   "speakers": [
+    {
+     "name": "Patricia Titus, Field CISO, Abnormal AI"
+    }
+   ],
+   "title": "From Known-Bad to Known-Normal: The Future of Threat Detection (brought to you by Abnormal AI)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM106-S",
+   "areasOfInterest": [
+    "Customer Enablement",
+    "Innovation & Transformation",
+    "Cost Optimization"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "State and Local Government"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "IT Executive",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Expo, Theater 2",
+   "services": [
+    "Amazon Connect",
+    "Amazon Lex",
+    "AWS Lambda"
+   ],
+   "sessionId": "AIM106-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "15:15"
+   },
+   "speakers": [
+    {
+     "name": "Kyle Tuberson, Chief Technology Officer, ICF"
+    },
+    {
+     "name": "Bettina Bienvenida, Senior RPA Developer, ICF"
+    }
+   ],
+   "title": "Transforming contact center operations in the public sector (brought to you by ICF)",
+   "topics": [
+    "Artificial Intelligence",
+    "Migration & Modernization"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM107-S",
+   "areasOfInterest": [
+    "Agentic AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Government",
+    "Federal Government",
+    "State and Local Government"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Data Scientist",
+    "IT Executive",
+    "Data Engineer"
+   ],
+   "room": "Expo, AWS for Industries Zone",
+   "sessionId": "AIM107-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "30",
+    "time": "14:30"
+   },
+   "speakers": [
+    {
+     "name": "Gopinath Sankaran, Vice President, Strategic Ecosystems, Informatica from Salesforce"
+    }
+   ],
+   "title": "From Data Chaos to Citizen Impact: AI-Ready Data for Public Sector (brought to you by Informatica from Salesforce)",
+   "topics": [
+    "Artificial Intelligence",
+    "Analytics"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM108-S",
+   "areasOfInterest": [
+    "Generative AI",
+    "Network & Infrastructure Security",
+    "Containers"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "IT Administrator",
+    "System Administrator",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Ballroom ABC - Green Silent Stage",
+   "sessionId": "AIM108-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "30",
+    "time": "14:30"
+   },
+   "speakers": [
+    {
+     "name": "John Dvorak, Chief Technology Officer, Public Sector, Red Hat"
+    },
+    {
+     "name": "Michael Epley, Principal Architect, Red Hat"
+    }
+   ],
+   "title": "Bridging Innovation and Institution: Scaling AI Safely on AWS (brought to you by Red Hat)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM109-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Governance, Risk & Compliance"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "Professional Services",
+    "State and Local Government"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "System Administrator",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Expo, Theater 1",
+   "sessionId": "AIM109-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "15",
+    "time": "13:15"
+   },
+   "speakers": [
+    {
+     "name": "Mike Raker, Chief Technology Officer, Maximus"
+    }
+   ],
+   "title": "Production-Grade Agentic AI for Government with Speed (brought to you by Maximus)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM110-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Generative AI",
+    "Digital Sovereignty"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "Government",
+    "Aerospace & Satellite"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Business Executive",
+    "IT Professional / Technical Manager",
+    "IT Executive"
+   ],
+   "room": "Ballroom ABC - Purple Silent Stage",
+   "services": [
+    "Amazon Virtual Private Cloud (Amazon VPC)"
+   ],
+   "sessionId": "AIM110-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "30",
+    "time": "13:30"
+   },
+   "speakers": [
+    {
+     "name": "Ivo Pinto, Head Of Solution Architecture, Poolside"
+    }
+   ],
+   "title": "AI Coding: Bringing AI-Powered Development to Secure Environments (brought to you by poolside)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Breakout session"
+  },
+  {
+   "abbreviation": "AIM111-S",
+   "areasOfInterest": [
+    "Automation",
+    "Threat Detection & Incident Response",
+    "Zero Trust"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "State and Local Government",
+    "Energy & Utilities"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "IT Professional / Technical Manager",
+    "IT Executive",
+    "Solution / Systems Architect"
+   ],
+   "room": "Expo, Theater 1",
+   "sessionId": "AIM111-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "14:00"
+   },
+   "speakers": [
+    {
+     "name": "Nick Summers, Co-Founder and CEO, ComplAi Inc."
+    },
+    {
+     "name": "Brian \"Stretch\" Meyer, Federal Field CTO, Axonius Federal Systems"
+    }
+   ],
+   "title": "Beyond the Determination: AI, Traceability, and Continuous Compliance (brought to you by Axonius Federal Systems)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM112-S",
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Cloud Security Specialist",
+    "IT Professional / Technical Manager",
+    "Developer / Engineer"
+   ],
+   "room": "Expo, Theater 1",
+   "sessionId": "AIM112-S",
+   "sessionTime": {
+    "date": "2026-06-30",
+    "length": "15",
+    "time": "15:30"
+   },
+   "speakers": [
+    {
+     "name": "Tony Allegrati, Field Consulting Systems Engineer, Cloud, Fortinet"
+    }
+   ],
+   "title": "Securing AI at Machine Speed (brought to you by Fortinet)",
+   "topics": [
+    "Artificial Intelligence"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM113-S",
+   "areasOfInterest": [
+    "Application Security",
+    "DevSecOps",
+    "Generative AI"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "Financial Services",
+    "Energy & Utilities"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "DevOps Engineer",
+    "Solution / Systems Architect",
+    "Developer / Engineer"
+   ],
+   "room": "Expo, Theater 1",
+   "services": [
+    "Amazon Bedrock",
+    "AWS Marketplace",
+    "AWS WAF"
+   ],
+   "sessionId": "AIM113-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "15",
+    "time": "12:45"
+   },
+   "title": "Runtime AI Security for AWS with F5 Guardrails and Red Team (brought to you by F5)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM114-S",
+   "areasOfInterest": [
+    "Agentic AI",
+    "Innovation & Transformation",
+    "DevSecOps"
+   ],
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "industries": [
+    "Federal Government",
+    "Government",
+    "Software & Internet"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Venture Capitalist",
+    "Developer / Engineer",
+    "IT Professional / Technical Manager"
+   ],
+   "room": "Expo, Theater 2",
+   "services": [
+    "Amazon Bedrock",
+    "Amazon Elastic Kubernetes Service (Amazon EKS)",
+    "Amazon CloudWatch"
+   ],
+   "sessionId": "AIM114-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "15",
+    "time": "09:00"
+   },
+   "speakers": [
+    {
+     "name": "Jack Loss, President & Co-Founder, Provisionary"
+    },
+    {
+     "name": "Aneesh Mehta, CEO & Co-Founder, Provisionary"
+    }
+   ],
+   "title": "More Than a Vibe: Building Secure Enterprise Apps with AI on AWS (brought to you by Provisionary)",
+   "topics": [
+    "Artificial Intelligence",
+    "Industry Solutions"
+   ],
+   "type": "Lightning talk"
+  },
+  {
+   "abbreviation": "AIM115-S",
+   "features": [
+    "Lecture-style",
+    "AWS Partners"
+   ],
+   "level": "100 \u2013 Foundational",
+   "roles": [
+    "Cloud Security Specialist",
+    "Business Executive",
+    "IT Executive"
+   ],
+   "room": "Expo, Theater 1",
+   "sessionId": "AIM115-S",
+   "sessionTime": {
+    "date": "2026-07-01",
+    "length": "15",
+    "time": "11:45"
+   },
+   "speakers": [
+    {
+     "name": "Peter Fabianski, Channel Solutions Architect - Public Sector, CrowdStrike"
+    }
+   ],
+   "title": "Staying Ahead of the Adversary with CrowdStrike (brought to you by CrowdStrike)",
+   "topics": [
+    "Artificial Intelligence",
+    "Security & Identity"
+   ],
+   "type": "Lightning talk"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+' Shared defaults for repository PlantUML diagrams.
+skinparam shadowing false

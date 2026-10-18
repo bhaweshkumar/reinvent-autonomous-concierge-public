@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "notes": "Door-to-door minutes including walking, elevators, shuttle waits and security. All values are estimates until measured. [Assumption] Bare \"caesars\" means Caesars Forum, the main re:Invent venue on that campus; revisit if the catalog shows otherwise.",
+  "venues": [
+    {"name": "Venetian", "aliases": ["venetian", "venetian resort", "palazzo", "the venetian"], "color": "#1f77b4"},
+    {"name": "Wynn", "aliases": ["wynn", "wynn las vegas", "encore"], "color": "#9467bd"},
+    {"name": "Caesars Forum", "aliases": ["caesars forum", "caesars", "caesar's"], "color": "#ff7f0e"},
+    {"name": "Caesars Palace", "aliases": ["caesars palace", "caesar's palace"], "color": "#e377c2"},
+    {"name": "Mandalay Bay", "aliases": ["mandalay bay", "mandalay", "mandalay bay resort"], "color": "#2ca02c"},
+    {"name": "MGM Grand", "aliases": ["mgm grand", "mgm"], "color": "#d62728"}
+  ],
+  "matrix": [
+    {"a": "Venetian", "b": "Wynn", "minutes": 10, "source": "estimate"},
+    {"a": "Venetian", "b": "Caesars Forum", "minutes": 15, "source": "estimate"},
+    {"a": "Venetian", "b": "Caesars Palace", "minutes": 15, "source": "estimate"},
+    {"a": "Venetian", "b": "Mandalay Bay", "minutes": 35, "source": "estimate"},
+    {"a": "Venetian", "b": "MGM Grand", "minutes": 25, "source": "estimate"},
+    {"a": "Wynn", "b": "Caesars Forum", "minutes": 20, "source": "estimate"},
+    {"a": "Wynn", "b": "Caesars Palace", "minutes": 25, "source": "estimate"},
+    {"a": "Wynn", "b": "Mandalay Bay", "minutes": 40, "source": "estimate"},
+    {"a": "Wynn", "b": "MGM Grand", "minutes": 30, "source": "estimate"},
+    {"a": "Caesars Forum", "b": "Caesars Palace", "minutes": 15, "source": "estimate"},
+    {"a": "Caesars Forum", "b": "Mandalay Bay", "minutes": 35, "source": "estimate"},
+    {"a": "Caesars Forum", "b": "MGM Grand", "minutes": 25, "source": "estimate"},
+    {"a": "Caesars Palace", "b": "Mandalay Bay", "minutes": 30, "source": "estimate"},
+    {"a": "Caesars Palace", "b": "MGM Grand", "minutes": 25, "source": "estimate"},
+    {"a": "Mandalay Bay", "b": "MGM Grand", "minutes": 20, "source": "estimate"}
+  ],
+  "inside_walk": {
+    "Venetian": {"minutes": 5, "source": "estimate"},
+    "Wynn": {"minutes": 4, "source": "estimate"},
+    "Caesars Forum": {"minutes": 6, "source": "estimate"},
+    "Caesars Palace": {"minutes": 5, "source": "estimate"},
+    "Mandalay Bay": {"minutes": 5, "source": "estimate"},
+    "MGM Grand": {"minutes": 4, "source": "estimate"}
+  },
+  "floor_minutes": {
+    "Venetian": {"minutes": 3, "source": "estimate"},
+    "Wynn": {"minutes": 3, "source": "estimate"},
+    "Caesars Forum": {"minutes": 3, "source": "estimate"},
+    "Caesars Palace": {"minutes": 3, "source": "estimate"},
+    "Mandalay Bay": {"minutes": 3, "source": "estimate"},
+    "MGM Grand": {"minutes": 3, "source": "estimate"}
+  },
+  "zone_penalties": {
+    "Caesars Forum": {
+      "Expo|Main": {"minutes": 8, "source": "estimate"}
+    }
+  }
+}
