@@ -88,19 +88,9 @@ These C4 diagrams show that boundary at two levels:
 
 [Live container diagram](./docs/diagrams/c4-container-live.puml)
 
-| Diagram                                                                                                       | Shows                                                            |
-| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Builder ID sign-in sequence](docs/plans/aws-hackathon.md#3-sequence-builder-id-sign-in-refresh-and-sign-out) | PKCE loopback sign-in, token refresh, and sign-out               |
-| [Booking sequence](docs/plans/aws-hackathon.md#4-sequence-booking-with-transit-buffer-injection)              | Approval-gated booking, transit buffers, and schedule read-back  |
-| [Live and demo deployment](docs/plans/aws-hackathon.md#5-deployment-live-mode-versus-hosted-demo)             | Attendee-local live mode compared with the hosted read-only demo |
-
 The `.puml` links above point to the canonical C4-PlantUML sources. They can be checked without
 generating image files with
 `plantuml -checkonly docs/diagrams/*.puml`.
-
-Decisions, risks and trust boundaries are in [docs/DESIGN_MAP.md](docs/DESIGN_MAP.md); the
-historical design baseline is in [docs/plans/reinvent-concierge-lld.md](docs/plans/reinvent-concierge-lld.md)
-and may predate current behavior.
 
 ## Requirements
 
@@ -157,7 +147,7 @@ concierge run                             # coordinated catalog sync + seat snap
 
 ### Connecting to the AWS Events API
 
-[ListEvents and GetEvent](docs/aws-service.md) need no credentials. The re:Invent
+[ListEvents and GetEvent] need no credentials. The re:Invent
 catalog and your schedule need an AWS Builder ID sign-in, and you must be registered for
 the event.
 
@@ -171,9 +161,7 @@ concierge logout              # revokes the refresh token and deletes stored tok
 Run `login` on the machine where your browser is: the browser delivers the authorization
 code to a loopback port, so signing in over SSH or inside a remote container does not work.
 
-`login` runs the OAuth 2.0 authorization code flow with PKCE described in
-[docs/aws-service.md](docs/aws-service.md#auth-signing-in). It listens on
-`http://127.0.0.1:<port>/callback`, using the first free reserved port from 8484 to 8489,
+It listens on `http://127.0.0.1:<port>/callback`, using the first free reserved port from 8484 to 8489,
 and checks the `state` value it gets back. It then stores the access token (valid 60
 minutes) and the refresh token (30 days). After a `401`, the client refreshes the token
 once and retries. The same token works for the hosted MCP server, which uses the same
@@ -590,8 +578,7 @@ temporary config, credentials and data files.
 ### Live tests against the real API
 
 `tests/live/` checks every feature against the real AWS Events API and the hosted MCP
-server. It is excluded from `make test` and runs in tiers you opt into. The full matrix
-and safety rules are in [docs/testing/live-test-plan.md](docs/testing/live-test-plan.md).
+server. It is excluded from `make test` and runs in tiers you opt into.
 
 ```bash
 make test-live                                   # public catalog (no sign-in) + signed-in read-only + hosted MCP
